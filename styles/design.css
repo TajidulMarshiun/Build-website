@@ -112,4 +112,25 @@ nav ul{
     margin-top: 0 auto;
 }
 /* users say */
+.user-tittle{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.review-img{
+    display: flex;
+    gap: 5px;
+}
+.users{
+    background-color: hsl(240, 8%, 95%);
+    border-radius: 10px;
+
+}
+.users-info{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+
+}
     
