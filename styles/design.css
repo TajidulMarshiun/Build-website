@@ -25,6 +25,12 @@
     padding: 10px;
     border: none;
     border-radius: 10px;
+    
+}
+.btn-primary:hover{
+    background-color: #0f382f;
+    box-shadow: 10px 10px 10px black;
+    
 }
 .bg-image{
     background-image: url("../B12A01-landing-launchpad/Assets/Hero-bg.png");
@@ -120,10 +126,13 @@ nav ul{
 .review-img{
     display: flex;
     gap: 5px;
+    border-radius: 20px;
 }
-.users{
-    background-color: hsl(240, 8%, 95%);
+.users:hover{
+    background-color: hsl(240, 2%, 67%);
     border-radius: 10px;
+    padding:20px;
+    box-shadow: 10px 10px 10px rgb(47, 48, 47);
 
 }
 .users-info{
@@ -133,4 +142,59 @@ nav ul{
     
 
 }
+
+.focuc{
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
     
+    
+}
+.focus-img{
+    text-align: center;
+    border-radius: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+/* form section */
+.form-hd{
+    font-size: 50px;
+}
+.form{
+    margin: 20px;
+    gap: 20px;
+
+    
+    
+}
+.form-container{
+    display: flex;
+   align-items: center;
+   margin: 450px;
+   gap: 40px;
+   width: 90%;
+   height: 24px;
+   background-color: azure;
+   
+}
+
+/* footer section */
+.web-name{
+    font-size: 100px;
+    color: #4E47FF;
+    text-align: center;
+    margin: 0px;
+}    
+.fotter-description{
+    text-align: center;
+    margin: 0px;
+}
+.navigation{
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #8987A1;
+    font-size: small;
+}
